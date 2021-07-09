@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>
+            Figuras Geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+    <div class="container">
+    <section class="section">
+        <img src="img/cuadrado (1).png" alt="">
+        <h2>
+            Calcula el área y perímetro 
+        </h2>
+        <form class="section__form">
+            <label for="InputCuadrado">Escibe cuánto mide cada lado de tu cuadrado:</label>
+            <div class="input">
+            <input class="section__input"  id="InputCuadrado" type="number"/> </div>
+                        <button class="section__button-perimetro" type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perímetro
+            </button>
+            <button class="section__button-area" type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+        </form>
+    </section>
+    <section class="section">
+        <img src="img/triangulo.png" alt="">
+        <h2>
+            Calcula el área y perímetro 
+        </h2>
+        
+        <form class="section__form">
+            <label>Escibe cuánto mide cada lado de tu triángulo:</label>
+        <div class="container_input">
+            <input class="section__input" id="InputTriangulo1" placeholder="LADO A" type="number"/>
+            <input class="section__input" id="InputTriangulo2" placeholder="LADO B" type="number"/>
+        </div>
+        <div class="container_base">
+            <input class="section__input" id="InputTrianguloB" placeholder="BASE"   type="number"/>
+            <input class="section__input"id="InputTrianguloA" placeholder="ALTURA" type="number"/>
+        </div>
+            
+            <button class="section__button-perimetro" type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perímetro
+            </button>
+            <button class="section__button-area" type="button" onclick="calcularAreaTriangulo()">
+                Calcular el área
+            </button>
+        </form>
+    </section>
+    <section class="section">
+        <img src="img/lavado-en-seco.png" alt="">
+        <h2>
+            Calcula el área y perímetro 
+        </h2>
+        <form class="section__form">
+            <label for="InputCuadrado">Escibe cuánto mide el radio de tu círculo:</label>
+            <div class="input"> 
+            <input class="section__input" id="InputCirculo" type="number"/> </div>
+            <button class="section__button-perimetro" type="button" onclick="calcularPerimetroCirculo()">
+                Calcular el perímetro
+            </button>
+            <button class="section__button-area" type="button" onclick="calcularAreaCirculo()">
+                Calcular el área
+            </button>
+            <button class="section__button-area" type="button" onclick="calcularDiametroCirculo()">
+                Calcular el Diametro
+            </button>
+        </form>
+    </section>
+</div>
+    <script src="/figuras.js"></script>
+</body>
+</html> 
