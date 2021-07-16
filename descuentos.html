@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso practico de Js EN PLATZI</title>
+    <link rel="stylesheet" href="descuentos.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Porcentajes y descuentos</h1>
+        
+
+    </header>
+<div class="container">
+    <section class="section" >
+        <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+        <form class="section__form" action="">
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input class="section__input" type="number" id="InputPrice">
+
+            <label for="InputDiscount">Escribe el porcentaje de descuento</label>
+            <input class="section__input" type="number"  id="InputDiscount">
+            
+
+            <button class="section__button" type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular </button>
+            <p id="ResultP"></p>
+        </form>
+
+    </section>
+</div>
+    
+
+    <script src="descuentos.js"></script>
+    
+</body>
+</html>

@@ -9,7 +9,7 @@
 .header {
     align-items: center;
     display: flex;
-    height: 200px;
+    height: 150px;
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -32,10 +32,10 @@ p {
 
 .container {
 display: flex;
-padding: 20px 40px;
+padding: 10px 20px;
 justify-content: space-around;
-min-height: calc(100vh-200px);
-margin: 60px;
+min-height: calc(100vh-100px);
+margin: 40px;
 
 }
 .container_input {
@@ -54,29 +54,30 @@ margin: 60px;
     background-color: rgba(255, 255, 255, 0.1); 
     color: rgb(255, 255, 255);
     padding: 60px 38px 20px 30px;
-    min-height: 650px;
+    /* min-height: 650px; */
     width: 300px;
+    height: 450px;
     display: flex;
     flex-direction: column;    
     text-align: center;
     margin: 10px;
     box-shadow: 0px 4px 20px  rgba(37, 1, 1, 0.8);
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 20px;
 }
 
 img {
-    margin:  20px 100px;
+    margin:  10px 120px;
     justify-content: space-around;
-    width: 100px;
+    width: 50px;
     display: flex;
 
-    justify-content: space-between;
+   
 }
 .section h2 {
     display: flex;    
     color: rgb(105, 1, 58);
-    font-size: 20v;    
+    font-size: 3vh;    
     justify-content: space-between;
       
 
@@ -118,9 +119,9 @@ section label {
     color: rgb(134, 1, 112);
     cursor: pointer;
     font-size: 13px;
-    padding: 13px 10px;
+    padding: 10px 5px;
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
